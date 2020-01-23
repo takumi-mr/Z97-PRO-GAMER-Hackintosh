@@ -25,7 +25,7 @@ You may have to change below
 	    ...
 	</dict>
     ``` 
-This make total of using USB port 15 in total in my env.  
+This make total of using USB port 15 in my env.  
 But the port you use is differ from me.  
 so if you use as it is, Some USB port cannot work.  
 I recommend delete the args or change port to use.
