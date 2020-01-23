@@ -1,5 +1,8 @@
 # Z97-PRO-GAMER-Hackintosh
-config.plist and kexts for Hackintosh to boot Catalina or Mojave with Z97-PRO-GAMER (ASUS)
+config.plist and kexts to boot Catalina or Mojave with Z97-PRO-GAMER (ASUS)
+
+GPU : RX570
+CPU : i7 4790k
 
 kext list  
 * FakeSMC.kext
@@ -9,6 +12,7 @@ kext list
 * USBInjectAll.kext
 * AHCI_Intel_Generic_SATA.kext
 * IntelMausiEthernet.kext
+* FakeSMCSensor**.kext
 
 You may have to change below  
 
@@ -21,7 +25,7 @@ You may have to change below
 	    ...
 	</dict>
     ``` 
-This make USB port limit to 15 in total in my env.  
+This make total of using USB port 15 in total in my env.  
 But the port you use is differ from me.  
 so if you use as it is, Some USB port cannot work.  
 I recommend delete the args or change port to use.
